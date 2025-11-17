@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif
+}
+.landingMain {
+    background-image: url(images/firstBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    color: white; 
+    text-align: center;
+    padding-top: 200px
+}
+
+.transHeader {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.02);
+    z-index: 1;
+}
+
+.navHorizontal {
+    list-style: none;
+    padding: 0;
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navHorizontal li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navHorizontal li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: block;
+}
+
+.navHorizontal li a:hover {
+    color: lightgray;
+}
+
+h1 {
+    font-size: 800%;
+    line-height: 0
+}
+h3 {
+    font-size: 200%;
+}
+
+.second {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+h2 {
+font-size: 200%;
+}
+
+.text {
+    margin: 40px;
+    margin-left: 70px;
+}
+
+.table {
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(222, 231, 238);
+    border-radius: 15px;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.containerGallery {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 23%;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.card h
