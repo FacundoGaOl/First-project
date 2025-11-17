@@ -1,13 +1,14 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.02);
 }
 .landingMain {
     background-image: url(images/firstBackground.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 50vh;
+    min-height: 100vh;
     color: white; 
     text-align: center;
     padding-top: 200px
@@ -46,17 +47,20 @@ body {
 }
 
 h1 {
-    font-size: 800%;
+    font-size: 900%;
     line-height: 0
 }
 h3 {
-    font-size: 200%;
+    line-height: 0;
+    font-size: 150%;
 }
 
-.second {
+
+.secondType {
     display: flex;
     justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.356);
+    background-color: rgba(0, 16, 29);
+    color: white;
 }
 
 h2 {
@@ -71,10 +75,12 @@ font-size: 200%;
 .table {
     margin: 30px;
     padding: 20px;
-    background-color: rgb(222, 231, 238);
+    background-color: rgb(255, 177, 54);
     border-radius: 15px;
     border-collapse: separate;
     border-spacing: 15px;
+    color: black;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .containerGallery {
@@ -87,10 +93,56 @@ font-size: 200%;
     width: 23%;
     margin: 10px;
     padding: 10px;
-    background-color: bisque;
+    background-color: rgb(255, 177, 54);
     border-radius: 10px;
     list-style: none;
     text-align: center;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-.card h
+.bigComment {
+    padding: 50px;
+    border-radius: 10px;
+    margin: 60px;
+    justify-items: center;
+    background-image: url(images/Gemini_Generated_Image_cmutw4cmutw4c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    opacity: 0.5;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.landingMain {
+    background-image: url(images/firstBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    color: white; 
+    text-align: center;
+    padding-top: 200px
+}
+
+.map {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.flag {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    padding-top: 20px;
+}
+
+.flag h3 {
+    font-size: 400%;
+}
+
+.flag img {
+    width: 100px;
+}
